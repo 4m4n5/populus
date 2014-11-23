@@ -16,18 +16,15 @@ h1 {
 	font-weight: 400;
 }
 h2 {
-	padding: 5px 0;
-	font-size: 18px;
+	padding: 15px;
+	font-size: 24px;
 	font-weight: 400;
 	line-height: 1.3;
 }
 h3, p {
-	padding: 5px 0;
+	padding: 5px 15px;
 	font-size: 14px;
 	font-weight: 400;
-}
-h3 {
-	color: #555;
 }
 
 .header {
@@ -89,11 +86,69 @@ and (min-device-width: 901px) {
 		text-align: center;
 		color: #999;
 	}
+	.updates h2 {
+		font-size: 18px;
+	}
 	.wrapper {
+		position: relative;
 		width: 1020px;
 		overflow: hidden;
 		margin: 0 auto;
+		margin-bottom: 40px;
 	}
+		.special-cover {
+			position: relative;
+			width: 98%;
+			height: 500px;
+			margin: 1%;
+			background-color: #fff;
+			float: left;
+			border-radius: 2px;
+			-webkit-box-shadow: 0px 2px 1px -1px #ccc;
+			-moz-box-shadow: 0px 2px 1px -1px #ccc;
+			box-shadow: 0px 2px 1px -1px #ccc;
+		}
+		.sixty-cover {
+			width: 58%;
+			height: 400px;
+			background-color: #fff;
+			float: left;
+			margin: 1%;
+			border-radius: 2px;
+			-webkit-box-shadow: 0px 2px 1px -1px #ccc;
+			-moz-box-shadow: 0px 2px 1px -1px #ccc;
+			box-shadow: 0px 2px 1px -1px #ccc;
+		}
+		.forty-cover {
+			width: 38%;
+			height: 300px;
+			background-color: #fff;
+			float: left;
+			margin: 1%;
+			border-radius: 2px;
+			-webkit-box-shadow: 0px 2px 1px -1px #ccc;
+			-moz-box-shadow: 0px 2px 1px -1px #ccc;
+			box-shadow: 0px 2px 1px -1px #ccc;
+		}
+		.fifty-cover {
+			width: 48%;
+			overflow: hidden;
+			padding-bottom: 20px;
+			background-color: #fff;
+			float: left;
+			margin: 1%;
+			border-radius: 2px;
+			-webkit-box-shadow: 0px 2px 1px -1px #ccc;
+			-moz-box-shadow: 0px 2px 1px -1px #ccc;
+			box-shadow: 0px 2px 1px -1px #ccc;
+		}
+		.fifty-cover img {
+			width: 100%;
+		}
+		.fifty-cover h2 {
+			font-family: 'Overlock';
+			font-weight: 700;
+		}
 	.footer {
 		width: 100%;
 		padding: 20px 0;
@@ -101,7 +156,7 @@ and (min-device-width: 901px) {
 		background-color: #283048;
 		text-align: center;
 	}
-	.footer h3 {
+	.footer > p {
 		color: #7890d6;
 		margin-top: 60px;
 		padding: 0;
@@ -125,6 +180,7 @@ and (min-device-width: 901px) {
 		color: #fff;
 	}
 	.credit p {
+		padding: 5px 0;
 		padding-top: 10px;
 		color: #7890d6;
 		-webkit-transition: all 0.3s ease-out 0s;
