@@ -96,7 +96,66 @@ and (min-device-width: 901px) {
 	}
 	.footer {
 		width: 100%;
-		height: 200px;
+		padding: 20px 0;
+		overflow: hidden;
 		background-color: #283048;
+		text-align: center;
+	}
+	.footer h3 {
+		color: #7890d6;
+		margin-top: 60px;
+		padding: 0;
+	}
+	.credits-wrap {
+		width: 352px;
+		height: 105px;
+		overflow: visible;
+		margin: 40px auto;
+	}
+	.credit {
+		margin: 10px 14px;
+		height: 105px;
+		float: left;
+	}
+	.credit:hover .pic {
+		margin-top: -10px;
+	}
+	.credit:hover p {
+		margin-top: 10px;
+		color: #fff;
+	}
+	.credit p {
+		padding-top: 10px;
+		color: #7890d6;
+		-webkit-transition: all 0.3s ease-out 0s;
+		-moz-transition: all 0.3s ease-out 0s;
+		-o-transition: all 0.3s ease-out 0s;
+		transition: all 0.3s ease-out 0s;
+	}
+	.pic {
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		background-color: #50C9C3;
+		-webkit-transition: all 0.3s ease-out 0s;
+		-moz-transition: all 0.3s ease-out 0s;
+		-o-transition: all 0.3s ease-out 0s;
+		transition: all 0.3s ease-out 0s;
+	}
+	.pic.aman {
+		background: url("images/aman.jpg") center no-repeat;
+		background-size: cover;
+	}
+	.pic.mihir {
+		background: url("images/mihir.jpg") center no-repeat;
+		background-size: cover;
+	}
+	.pic.yash {
+		background: url("images/yash.jpg") center no-repeat;
+		background-size: cover;
+	}
+	.pic.sahil {
+		background: url("images/sahil.jpg") center no-repeat;
+		background-size: cover;
 	}
 }
