@@ -119,22 +119,22 @@ and (min-device-width: 901px) {
 	.subscribe {
 		width: 240px;
 		height: 42px;
-		line-height: 40px;
 		font-size: 18px;
 		padding-left: 20px;
 		padding-right: 50px;
 		color: #444;
 		border: 1px solid #ccc;
 		border-radius: 20px;
-		display: inline-block;
+		float: left;
 	}
 	.subscribe-button {
 		width: 42px;
 		height: 42px;
-		margin-left: -53px;
+		margin: 1px 0;
+		margin-left: -50px;
 		border-radius: 21px;
 		background-color: #fff;
-		display: inline-block;
+		float: left;
 		cursor: pointer;
 		-webkit-transition: all 0.3s ease-out 0s;
 		-moz-transition: all 0.3s ease-out 0s;
@@ -152,7 +152,7 @@ and (min-device-width: 901px) {
 		transition: all 0.3s ease-out 0s;
 	}
 	.subscribe-button:hover {
-		margin-left: -47px;
+		margin-left: -42px;
 		background-color: #283048;
 	}
 	.subscribe-button:hover > .icon-plane {
