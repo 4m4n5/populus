@@ -109,7 +109,7 @@ and (min-device-width: 901px) {
 	.subscribe-button {
 		width: 42px;
 		height: 42px;
-		margin-left: -50px;
+		margin-left: -53px;
 		border-radius: 21px;
 		background-color: #fff;
 		display: inline-block;
@@ -270,7 +270,7 @@ and (min-device-width: 901px) {
 		padding: 0;
 	}
 	.credits-wrap {
-		width: 352px;
+		width: 399px;
 		height: 105px;
 		overflow: visible;
 		margin: 40px auto;
@@ -279,15 +279,16 @@ and (min-device-width: 901px) {
 		margin: 10px 14px;
 		height: 105px;
 		float: left;
+		text-align: center;
 	}
 	.credit:hover .pic {
 		margin-top: -10px;
 	}
-	.credit:hover p {
+	.credit:hover h3 {
 		margin-top: 10px;
 		color: #fff;
 	}
-	.credit p {
+	.credit h3 {
 		padding: 5px 0;
 		padding-top: 10px;
 		color: #7890d6;
@@ -296,10 +297,16 @@ and (min-device-width: 901px) {
 		-o-transition: all 0.3s ease-out 0s;
 		transition: all 0.3s ease-out 0s;
 	}
+	.credit p {
+		margin-top: -5px;
+		padding: 0;
+		color: #50608f;
+	}
 	.pic {
 		width: 60px;
 		height: 60px;
 		border-radius: 30px;
+		margin: 0 auto;
 		background-color: #50C9C3;
 		-webkit-transition: all 0.3s ease-out 0s;
 		-moz-transition: all 0.3s ease-out 0s;
