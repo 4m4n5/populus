@@ -25,13 +25,12 @@
 				<input type="text" placeholder="Subscribe" class="subscribe">
 				<button type="submit" class="subscribe-button"><div class="icon-plane"></div></button>
 			</div>
-			<!-- Integrate typeform here, remove email ID -->
-			<a href="mailto:the.populus.team@gmail.com">
-				<div class="share-a-story-box">
+            <a class="typeform-share" href="https://populus.typeform.com/to/rKs3DX" data-mode="2" target="_blank">
+                <div class="share-a-story-box">
 					<div class="icon-quote"></div>
 					<p class="share-a-story">Share a story</p>
 				</div>
-			</a>
+            </a>
 			<a href="https://www.facebook.com/populusiitr" target="_blank">
 				<div class="icon-facebook"></div>
 			</a>
@@ -118,5 +117,25 @@
 			</div>
 			<p>&copy; 2014 The Populus Team All Rights Reserved</p>
 		</div>
+        <script>
+            (function () {
+                var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+                if (!gi.call(d,id)) {
+                    js=ce.call(d,'script');
+                    js.id=id;js.src=b+'share.js';
+                    q=gt.call(d,'script')[0];
+                    q.parentNode.insertBefore(js,q)
+                }
+                id=id+'_';
+                if (!gi.call(d,id)) {
+                    qs=ce.call(d,'link');
+                    qs.rel='stylesheet';
+                    qs.id=id;
+                    qs.href=b+'share-button.css';
+                    s=gt.call(d,'head')[0];
+                    s.appendChild(qs,s)
+                }})()
+        </script>
+
 	</body>
 </html>
