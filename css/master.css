@@ -36,9 +36,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .header {
-	background-attachment: fixed;
-	background: url("images/cover.jpg") center no-repeat;
+	background: url("images/cover.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 	
 /*
 	background: -webkit-linear-gradient(90deg, #e43a15 10%, #e65245 90%);
@@ -70,16 +72,36 @@ and (max-device-width: 900px) {
 @media only screen 
 and (min-device-width: 901px) {
 	.header {
+		position: absolute;
+		top: 0;
+		left: 0;
 		width: 100%;
 		height: 200px;
 		color: #fff;
 		text-align: center;
+		z-index: -100;
+	}
+	.header-cover-div {
+		position: relative;
+		width: 100%;
+		height: 200px;
+		z-index: -50;
 	}
 	h1.logo {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		padding-left: 40px;
+		padding-right: 40px;
+		margin-left: -144px;
+		margin-top: -60px;
+		border-radius: 8px;
 		font-family: 'Bubblegum Sans';
 		font-size: 72px;
-		padding-top: 20px;
 		color: #fff;
+		background: url("images/back.png");
+		background-size: auto;
+		background-repeat: repeat;
 	}
 	.social-dashboard {
 		width: 550px;
