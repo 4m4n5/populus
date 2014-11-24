@@ -27,6 +27,14 @@ h3, p {
 	font-weight: 400;
 }
 
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
 .header {
 	background-attachment: fixed;
 	background: url("images/cover.jpg") center no-repeat;
@@ -74,12 +82,112 @@ and (min-device-width: 901px) {
 		color: #fff;
 	}
 	.social-dashboard {
-		width: 600px;
-		height: 100px;
+		width: 550px;
+		overflow: hidden;
+		padding: 25px;
 		background-color: #fff;
 		margin: 0 auto;
 		margin-top: -50px;
 		border-radius: 2px;
+	}
+	.subscribe-box {
+		width: 360px;
+		float: left;
+	}
+	.subscribe {
+		width: 240px;
+		height: 42px;
+		line-height: 40px;
+		font-size: 18px;
+		padding-left: 20px;
+		padding-right: 50px;
+		color: #444;
+		border: 1px solid #ccc;
+		border-radius: 20px;
+		display: inline-block;
+	}
+	.subscribe-button {
+		width: 42px;
+		height: 42px;
+		margin-left: -50px;
+		border-radius: 21px;
+		background-color: #fff;
+		display: inline-block;
+		cursor: pointer;
+		-webkit-transition: all 0.3s ease-out 0s;
+		-moz-transition: all 0.3s ease-out 0s;
+		-o-transition: all 0.3s ease-out 0s;
+		transition: all 0.3s ease-out 0s;
+	}
+	div.icon-plane {
+		font-size: 18px;
+		line-height: 25px;
+		color: #283048;
+		display: inline-block;
+		-webkit-transition: all 0.3s ease-out 0s;
+		-moz-transition: all 0.3s ease-out 0s;
+		-o-transition: all 0.3s ease-out 0s;
+		transition: all 0.3s ease-out 0s;
+	}
+	.subscribe-button:hover {
+		margin-left: -47px;
+		background-color: #283048;
+	}
+	.subscribe-button:hover > .icon-plane {
+		color: #fff;
+	}
+	.share-a-story-box {
+		float: left;
+		height: 44px;
+	}
+	div.icon-quote {
+		text-align: center;
+		width: 86px;
+		font-size: 44px;
+		height: 44px;
+		color: #283048;
+		-webkit-transition: all 0.3s ease-out 0s;
+		-moz-transition: all 0.3s ease-out 0s;
+		-o-transition: all 0.3s ease-out 0s;
+		transition: all 0.3s ease-out 0s;
+	}
+	p.share-a-story {
+		padding: 0;
+		display: none;
+		color: #283048;
+		-webkit-transition: all 0.3s ease-out 0s;
+		-moz-transition: all 0.3s ease-out 0s;
+		-o-transition: all 0.3s ease-out 0s;
+		transition: all 0.3s ease-out 0s;
+	}
+	.share-a-story-box:hover {
+		margin-top: -4px;
+	}
+	.share-a-story-box:hover > .icon-quote {
+		font-size: 28px;
+		height: 28px;
+	}
+	.share-a-story-box:hover > p.share-a-story {
+		display: inline-block;
+	}
+	div.icon-facebook {
+		margin-left: 40px;
+		font-size: 28px;
+		padding: 8px;
+		width: 28px;
+		height: 28px;
+		border-radius: 28px;
+		float: left;
+		color: #283048;
+		-webkit-transition: all 0.3s ease-out 0s;
+		-moz-transition: all 0.3s ease-out 0s;
+		-o-transition: all 0.3s ease-out 0s;
+		transition: all 0.3s ease-out 0s;
+	}
+	div.icon-facebook:hover {
+		margin-top: -4px;
+		background-color: #283048;
+		color: #fff;
 	}
 	.updates {
 		margin: 20px auto;
