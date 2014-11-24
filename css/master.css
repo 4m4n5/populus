@@ -221,7 +221,7 @@ and (min-device-width: 901px) {
 	}
 	.wrapper {
 		position: relative;
-		width: 1020px;
+		width: 820px;
 		overflow: hidden;
 		margin: 0 auto;
 		margin-bottom: 40px;
