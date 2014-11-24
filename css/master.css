@@ -239,19 +239,29 @@ and (min-device-width: 901px) {
 		.special-cover {
 			position: relative;
 			width: 98%;
-			height: 500px;
+            padding-bottom: 20px;
+            overflow: hidden;
 			margin: 1%;
 			background-color: #fff;
 			float: left;
-			border-radius: 2px;
+            border-radius: 2px;
 			-webkit-box-shadow: 0px 2px 1px -1px #ccc;
 			-moz-box-shadow: 0px 2px 1px -1px #ccc;
 			box-shadow: 0px 2px 1px -1px #ccc;
 		}
+    
+        .special-cover img {
+            width: 100%;
+        }
+        .special-cover h2 {
+            font-family: 'Overlock';
+            font-weight: 700;
+        }
 		.sixty-cover {
 			width: 58%;
-			height: 400px;
+			overflow: hidden;
 			background-color: #fff;
+            padding-bottom: 20px;
 			float: left;
 			margin: 1%;
 			border-radius: 2px;
@@ -259,10 +269,18 @@ and (min-device-width: 901px) {
 			-moz-box-shadow: 0px 2px 1px -1px #ccc;
 			box-shadow: 0px 2px 1px -1px #ccc;
 		}
+        .sixty-cover img {
+            width: 100%;
+        }
+        .sixty-cover h2 {
+            font-family: 'Overlock';
+            font-weight: 700;
+        }
 		.forty-cover {
 			width: 38%;
-			height: 300px;
+			overflow: hidden;
 			background-color: #fff;
+            padding-bottom: 20px;
 			float: left;
 			margin: 1%;
 			border-radius: 2px;
@@ -270,6 +288,13 @@ and (min-device-width: 901px) {
 			-moz-box-shadow: 0px 2px 1px -1px #ccc;
 			box-shadow: 0px 2px 1px -1px #ccc;
 		}
+        .forty-cover img {
+            width: 100%;
+        }
+        .forty-cover h2 {
+            font-family: 'Overlock';
+            font-weight: 700;
+        }
 		.fifty-cover {
 			width: 48%;
 			overflow: hidden;
