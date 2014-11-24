@@ -226,6 +226,16 @@ and (min-device-width: 901px) {
 		margin: 0 auto;
 		margin-bottom: 40px;
 	}
+		.wrapper * img {
+			-webkit-transition: all 0.3s ease-out 0s;
+			-moz-transition: all 0.3s ease-out 0s;
+			-o-transition: all 0.3s ease-out 0s;
+			transition: all 0.3s ease-out 0s;
+		}
+		.wrapper * img:hover {
+			-webkit-filter: brightness(110%);
+			filter: brightness(110%);
+		}
 		.special-cover {
 			position: relative;
 			width: 98%;
