@@ -93,7 +93,7 @@ and (min-device-width: 901px) {
 		margin-top: -50px;
 		border-radius: 2px;
 	}
-	.validate {
+	form.validate {
 		padding: 0;
 		height: 0;
 	}
