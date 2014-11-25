@@ -93,6 +93,10 @@ and (min-device-width: 901px) {
 		margin-top: -50px;
 		border-radius: 2px;
 	}
+	.validate {
+		padding: 0;
+		height: 0;
+	}
 	.subscribe-box {
 		width: 360px;
 		float: left;
@@ -113,7 +117,7 @@ and (min-device-width: 901px) {
 		height: 44px;
 		margin: 0;
 		margin-left: -40px;
-		border: 1px solid #283048;
+		border: 1px solid #283048 !important;
 		border-radius: 21px;
 		background-color: #fff;
 		float: left;
