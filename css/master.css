@@ -40,27 +40,7 @@ a:link, a:visited, a:hover, a:active {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: bottom;
-	
-/*
-	background: -webkit-linear-gradient(90deg, #e43a15 10%, #e65245 90%);
-	background: -moz-linear-gradient(90deg, #e43a15 10%, #e65245 90%);
-	background: -ms-linear-gradient(90deg, #e43a15 10%, #e65245 90%);
-	background: -o-linear-gradient(90deg, #e43a15 10%, #e65245 90%);
-	background: linear-gradient(90deg, #e43a15 10%, #e65245 90%);
-	
-	background: -webkit-linear-gradient(0deg, #50C9C3 50%, #96DEDA 90%);
-	background: -moz-linear-gradient(0deg, #50C9C3 50%, #96DEDA 90%);
-	background: -ms-linear-gradient(0deg, #50C9C3 50%, #96DEDA 90%);
-	background: -o-linear-gradient(0deg, #50C9C3 50%, #96DEDA 90%);
-	background: linear-gradient(0deg, #50C9C3 50%, #96DEDA 90%);
-	
-	background: -webkit-linear-gradient(0deg, #283048 10%, #859398 90%);
-	background: -moz-linear-gradient(0deg, #283048 10%, #859398 90%);
-	background: -ms-linear-gradient(0deg, #283048 10%, #859398 90%);
-	background: -o-linear-gradient(0deg, #283048 10%, #859398 90%);
-	background: linear-gradient(0deg, #283048 10%, #859398 90%);
-*/
+	background-position: top;
 }
 
 @media only screen 
@@ -129,10 +109,11 @@ and (min-device-width: 901px) {
 		float: left;
 	}
 	.subscribe-button {
-		width: 42px;
-		height: 42px;
-		margin: 1px 0;
-		margin-left: -50px;
+		width: 68px;
+		height: 44px;
+		margin: 0;
+		margin-left: -40px;
+		border: 1px solid #283048;
 		border-radius: 21px;
 		background-color: #fff;
 		float: left;
@@ -153,8 +134,9 @@ and (min-device-width: 901px) {
 		transition: all 0.3s ease-out 0s;
 	}
 	.subscribe-button:hover {
-		margin-left: -42px;
+		margin-left: -34px;
 		background-color: #283048;
+		color: #fff;
 	}
 	.subscribe-button:hover > .icon-plane {
 		color: #fff;
@@ -162,6 +144,7 @@ and (min-device-width: 901px) {
 	.share-a-story-box {
 		float: left;
 		height: 44px;
+		margin-left: 25px;
 	}
 	div.icon-quote {
 		text-align: center;
@@ -194,7 +177,7 @@ and (min-device-width: 901px) {
 		display: inline-block;
 	}
 	div.icon-facebook {
-		margin-left: 40px;
+		margin-left: 25px;
 		font-size: 28px;
 		padding: 8px;
 		width: 28px;
@@ -219,6 +202,7 @@ and (min-device-width: 901px) {
 	}
 	.updates h2 {
 		font-size: 18px;
+		color: #283048;
 	}
 	.wrapper {
 		position: relative;
