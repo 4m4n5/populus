@@ -40,7 +40,7 @@ a:link, a:visited, a:hover, a:active {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: bottom;
 	
 /*
 	background: -webkit-linear-gradient(90deg, #e43a15 10%, #e65245 90%);
