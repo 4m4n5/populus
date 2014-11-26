@@ -85,6 +85,7 @@ and (min-device-width: 901px) {
 		width: 550px;
 		overflow: hidden;
 		padding: 25px;
+		padding-top: 15px;
 		background-color: #fff;
 		margin: 0 auto;
 		margin-top: -50px;
@@ -92,9 +93,6 @@ and (min-device-width: 901px) {
 	}
 	#mc-embedded-subscribe-form {
 		padding: 0 !important;
-		height: 0 !important;
-	}
-	#mc_embed_signup_scroll {
 		height: 0 !important;
 	}
 	.subscribe-box {
@@ -150,6 +148,7 @@ and (min-device-width: 901px) {
 		float: left;
 		height: 44px;
 		margin-left: 10px;
+		padding-top: 10px;
 	}
 	div.icon-quote {
 		text-align: center;
@@ -183,6 +182,7 @@ and (min-device-width: 901px) {
 		display: inline-block;
 	}
 	div.icon-facebook {
+		margin-top: 10px;
 		margin-left: 40px;
 		font-size: 28px;
 		padding: 8px;
@@ -197,7 +197,7 @@ and (min-device-width: 901px) {
 		transition: all 0.3s ease-out 0s;
 	}
 	div.icon-facebook:hover {
-		margin-top: -4px;
+		margin-top: 6px;
 		background-color: #283048;
 		color: #fff;
 	}
