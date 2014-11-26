@@ -23,7 +23,7 @@ h2 {
 }
 h3, p {
 	padding: 5px 15px;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
 }
 
@@ -56,7 +56,7 @@ and (min-device-width: 901px) {
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 200px;
+		height: 300px;
 		color: #fff;
 		text-align: center;
 		z-index: -100;
@@ -64,7 +64,7 @@ and (min-device-width: 901px) {
 	.header-cover-div {
 		position: relative;
 		width: 100%;
-		height: 200px;
+		height: 300px;
 		z-index: -50;
 	}
 	h1.logo {
@@ -80,9 +80,6 @@ and (min-device-width: 901px) {
 		font-family: 'Bubblegum Sans';
 		font-size: 72px;
 		color: #fff;
-		background: url("images/back.png");
-		background-size: auto;
-		background-repeat: repeat;
 	}
 	.social-dashboard {
 		width: 550px;
@@ -93,9 +90,9 @@ and (min-device-width: 901px) {
 		margin-top: -50px;
 		border-radius: 2px;
 	}
-	form.validate {
-		padding: 0;
-		height: 0;
+	#mc-embedded-subscribe-form {
+		padding: 0 !important;
+		height: 0 !important;
 	}
 	.subscribe-box {
 		width: 360px;
@@ -113,8 +110,9 @@ and (min-device-width: 901px) {
 		float: left;
 	}
 	.subscribe-button {
-		width: 68px;
+		width: 44px;
 		height: 44px;
+		font-size: 14px;
 		margin: 0;
 		margin-left: -40px;
 		border: 1px solid #283048 !important;
@@ -148,7 +146,7 @@ and (min-device-width: 901px) {
 	.share-a-story-box {
 		float: left;
 		height: 44px;
-		margin-left: 25px;
+		margin-left: 10px;
 	}
 	div.icon-quote {
 		text-align: center;
@@ -165,6 +163,7 @@ and (min-device-width: 901px) {
 		padding: 0;
 		display: none;
 		color: #283048;
+		font-size: 14px;
 		-webkit-transition: all 0.3s ease-out 0s;
 		-moz-transition: all 0.3s ease-out 0s;
 		-o-transition: all 0.3s ease-out 0s;
@@ -181,7 +180,7 @@ and (min-device-width: 901px) {
 		display: inline-block;
 	}
 	div.icon-facebook {
-		margin-left: 25px;
+		margin-left: 40px;
 		font-size: 28px;
 		padding: 8px;
 		width: 28px;
@@ -206,7 +205,7 @@ and (min-device-width: 901px) {
 	}
 	.updates h2 {
 		font-size: 18px;
-		color: #283048;
+		color: #777;
 	}
 	.wrapper {
 		position: relative;
@@ -344,6 +343,7 @@ and (min-device-width: 901px) {
 		transition: all 0.3s ease-out 0s;
 	}
 	.credit p {
+		font-size: 14px;
 		margin-top: -5px;
 		padding: 0;
 		color: #50608f;
