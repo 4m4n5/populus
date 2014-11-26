@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: 'Open Sans', 'Fira Sans';
+	font-family: 'Open Sans';
 }
 
 body {
@@ -419,13 +419,6 @@ and (max-device-width: 601px) {
 		float: left;
 		text-align: center;
 	}
-	.credit:hover .pic {
-		margin-top: -10px;
-	}
-	.credit:hover h3 {
-		margin-top: 10px;
-		color: #fff;
-	}
 	.credit h3 {
 		padding: 5px 0;
 		padding-top: 10px;
@@ -658,13 +651,6 @@ and (max-device-width: 821px) {
 		height: 105px;
 		float: left;
 		text-align: center;
-	}
-	.credit:hover .pic {
-		margin-top: -10px;
-	}
-	.credit:hover h3 {
-		margin-top: 10px;
-		color: #fff;
 	}
 	.credit h3 {
 		padding: 5px 0;
