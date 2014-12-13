@@ -86,7 +86,7 @@
 -->
 			
             <div class="special-cover" ng-repeat ="subject in disp.subject">
-                <img src="subjects/">
+                <img ng-src="{{subject.image}}"/>
 				<h2>{{subject.description}}</h2>
 				<p>{{subject.story}}</p>
 			</div>
