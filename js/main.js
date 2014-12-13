@@ -1,9 +1,15 @@
+//key:
+//size(
+//        1 = special-cover
+//        2 = fifty-cover
+//        3 = sixty-cover
+//        4 = forty-cover
+//    )
 (function () {
     var app = angular.module('subjects', []);
     
     app.controller('display', function(){
         this.subject = people;
-        this.DivSize = [1, 2];
     });
     
     var people =[ 
