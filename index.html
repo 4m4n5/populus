@@ -58,7 +58,7 @@
 			<h2>Subscribe and stay tuned for new stories!</h2>
 		</div>
 		
-		<div class="wrapper">
+		<div class="wrapper" ng-controller="display as disp">
 <!--
 			-------- Templates --------
 			---- Do not edit, copy! ---
@@ -85,10 +85,10 @@
 			</div>
 -->
 			
-            <div class="special-cover" ng-controller="display as disp">
+            <div class="special-cover" ng-repeat ="subject in disp.subject">
                 <img src="subjects/">
-				<h2>{{disp.subject.description}}</h2>
-				<p>{{disp.subject.story}}</p>
+				<h2>{{subject.description}}</h2>
+				<p>{{subject.story}}</p>
 			</div>
             
 		</div>

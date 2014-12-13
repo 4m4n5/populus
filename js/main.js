@@ -5,10 +5,16 @@
         this.subject = people;
     });
     
-    var people = {
-        description: '',
-        story: '',
-        image:'',
-        size:''
-    }
+    var people =[ 
+        {
+            description: '',
+            story: '',
+            image:'',
+            size:''
+        },
+
+        {
+
+        }   
+    ];
 })();
