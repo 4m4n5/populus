@@ -26,6 +26,7 @@
             image:'subjects/smithy-shop-2.jpg',
             size:'2'
         },
+        
         {
             description: 'I have been been sellling fruits here since the last 4 decades',
             story: 'It has been 40 years since I have been selling fruits in this campus, I have been doing it since I was a boy just like my father and his father before him. Earlier most of the campus was just woods and we used to sell fruits door to door in baskets, it used to be a lot more adventerous back then. The fruits were cheap though. We considered a student buying 1/- Re worth of fruits to be coming from a rich background. In service this long, and I have never had a kid misbehaving with me. All of you are lovely kids.',
@@ -34,12 +35,3 @@
         }
     ];
 })();
-
-
-
-
-
-
-
-
-
